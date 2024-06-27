@@ -1,0 +1,9 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;
+    padding: 0;}
+
+.container{
+    width: 350px;
+    height: 250px;
+}
+body{ background-color: rgb(224, 255, 233);}

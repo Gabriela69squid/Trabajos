@@ -1,0 +1,93 @@
+/* Fuente de Google */
+@import url(https://fonts.googleapis.com/css?family=Oswald:400,300,700);
+
+
+
+body {
+  margin: 0
+}
+
+.container_16 {
+	max-width: 1000px;
+	width: 80%;
+	margin: 0 auto;
+}
+
+/**********
+/* Header
+**********/
+
+header {
+  background: #ad42d7;
+  border-bottom: 1px solid #000000;
+  padding: 19px 0;
+  overflow: hidden;
+}
+
+header figure {
+  float: left;
+  /*height: 175px;
+  width: 175px;*/
+}
+
+header figure img {
+  border-radius: 90px;
+  border: solid #ffffff;
+  height: 175px;
+  width: 175px;
+  position: relative;
+}
+
+
+
+header hgroup h1 {
+  color: #fff;
+  font: 400 40px oswald, sans-serif;
+  text-shadow: 3px 3px 0 #72112e92;
+}
+
+header hgroup h2 {
+  color: #fff;
+  font-style: italic;
+  font: 400 20px oswald,sans-serif;
+  text-shadow: 2px 2px 0 #3e092982;
+}
+
+
+/***************
+/* Main section
+***************/
+
+p {
+  font: 400 14px oswald, sans-serif;
+}
+
+section[role=main] > div {
+  margin-top: 20px;
+}
+
+section[role=main] h3 {
+  border-bottom: 1px solid #0000006a;
+  padding: 0 0 20px 10px;
+  margin-top: 0px;
+  position: relative;
+  font: 400 20px oswald, sans-serif;
+}
+
+.experiences li, .training li {
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+/**************
+/* Knowledge 
+***************/
+
+
+.grid_8 ul li {
+  font: 400 15px oswald, sans-serif;
+  margin-bottom: 2px;
+  list-style: none;
+  text-shadow: 3px 3px 0 rgb(0, 0, 0);
+}
+
