@@ -1,0 +1,44 @@
+/*DOCUEMNTO CSS*/
+*{margin: 0;
+padding: 0;}
+
+body {background-color: rgb(234, 255, 215);}
+
+header.cabecera {background-color: rgba(21, 128, 87, 0);}
+
+div.logo {background-color: rgb(185, 253, 129);
+font-size: 4em;
+text-align: center;}
+
+nav.menu {}
+
+div.contenedor {display: flex;
+                width: 90%;
+                margin: auto;
+                position: relative;
+                top: 19px;
+                left: 0px;}
+
+a.item {color:rgba(0, 0, 0, 0.397);
+        font-family: "Mulish",sans-serif;
+        font-size: 1,3em;
+        width: 20%;
+        text-align: center;
+        padding: 8px 0px;
+        font-size: 0.8em;
+        border: 1px solid rgba(33, 10, 10, 0.814);
+        background-color: rgb(255, 255, 255); }
+
+a.item:first-child{border-top-left-radius: 15px;
+                   border-bottom-left-radius: 15px }
+
+a.item:last-child{border-top-right-radius: 25px;
+                   border-bottom-right-radius: 25px; 
+                   background-color: rgb(255, 0, 0);
+                   color: rgb(255, 255, 255);}
+
+@media only screen and (min-width:768px) {
+
+    div.contenedor {width: 50%;}
+}
+

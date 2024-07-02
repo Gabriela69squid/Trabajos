@@ -1,0 +1,57 @@
+/*DOCUMENTO CSS*/
+*{margin: 0;
+padding: 0;}
+
+section,div,a{box-sizing: border-box;    }
+
+
+h1{text-align: center;
+font-size: 3em;
+padding-bottom: 15px; }
+
+.sociales{background-color: rgb(246, 226, 255);
+          padding: 30px 0px;
+          min-height: 1px; }
+
+.container{display: flex;
+           width: 300px;
+           margin: auto;  
+           min-height:1px;
+           flex-direction:row-reverse;
+           flex-wrap:wrap;
+           justify-content:space-between;
+        }
+
+.items{font-size: 6em; 
+        width: 50%; 
+        text-align: center;
+        color: rgb(255, 255, 255);
+        border-radius: 300px;
+        height: 140px;
+        padding-top: 17px;
+        background-color: rgb(101, 28, 111);
+        margin-top: 8px;}
+
+/**MEDIA QUERIES PANTALLAS + 600PX*/
+@media only screen and (min-width:600px){
+
+   .items {color: blue;
+           background-color: aqua;}
+}
+
+/**MEDIA QUERIES PANTALLAS + 600PX*/
+@media only screen and (min-width:900px){
+
+    a.items {color: rgb(0, 0, 0);
+            background-color: rgb(255, 0, 0);
+            width: 20%;
+            font-size: 3em;
+            height: 83px;
+            margin-top: 6px;}
+
+   .container {width: 400px;}
+
+   .sociales {padding-right: 50px;}
+   a.items:hover {color: rgb(94, 255, 120);}
+
+ }
